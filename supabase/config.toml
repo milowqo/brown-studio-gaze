@@ -1,0 +1,4 @@
+project_id = "phcfmzplzkhzjxfocrpj"
+
+[functions.dikidi-booking]
+verify_jwt = false

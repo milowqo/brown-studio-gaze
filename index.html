@@ -1,25 +1,38 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GAZE Brow Studio - Студия бровей в Сочи | Мария Гусейнова</title>
-    <meta name="description" content="GAZE - Студия бровей в центре Сочи. Профессиональная архитектура, коррекция и окрашивание бровей. Долгосрочный результат до 4 недель. Индивидуальный подход и комфортная атмосфера." />
-    <meta name="author" content="GAZE Brow Studio" />
-
+    <meta name="description" content="GAZE - Студия бровей в центре Сочи. Профессиональная архитектура, коррекция и окрашивание бровей. Долгосрочный результат до 4 недель." />
+    
+    <!-- OpenGraph метатеги -->
     <meta property="og:title" content="GAZE Brow Studio - Премиум студия бровей в Сочи" />
-    <meta property="og:description" content="Профессиональная архитектура и коррекция бровей. Долгосрочный результат до 4 недель. Центр города, парковка рядом." />
+    <meta property="og:description" content="Профессиональная архитектура и коррекция бровей. Долгосрочный результат до 4 недель." />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@Lovable" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <!-- Стили из собранного проекта -->
+    <link rel="stylesheet" crossorigin href="./assets/index-C4m_b0mY.css">
   </head>
 
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Скрипт из собранного проекта -->
+    <script type="module" crossorigin src="./assets/index-C4m_b0mY.js"></script>
+    
+    <!-- Dikidi виджет -->
     <script type="text/javascript" src="https://dikidi.net/assets/js/widget_record/widget2.min.js?v=1758698230"></script>
+    
+    <!-- Инициализация Dikidi -->
+    <script>
+      DikidiWidget.init({
+        container: '#root', // или создайте отдельный div
+        company: 'ВАШ_ID_DIKIDI', // заменить на реальный
+        width: '100%',
+        primaryColor: '#8B5A2B'
+      });
+    </script>
   </body>
 </html>

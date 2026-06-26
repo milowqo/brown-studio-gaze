@@ -1,0 +1,14 @@
+# Missing Images
+
+The following images are imported in the code but were not found in the repository:
+
+- hero-new.jpg
+- work-1.jpg through work-6.jpg
+
+These images must be provided by the site owner. Place them in this directory.
+The files are tracked by the React app via `@/assets/` imports.
+
+File requirements:
+- Format: JPG / WebP
+- hero-new.jpg: hero background, ~1920px wide
+- work-1.jpg through work-6.jpg: gallery portfolio images, square aspect ratio recommended (~800x800px)

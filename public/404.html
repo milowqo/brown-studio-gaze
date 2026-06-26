@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 — GAZE Brow Studio</title>
+    <meta name="robots" content="noindex" />
+    <script>
+      // GitHub Pages SPA redirect: send all 404s to root
+      sessionStorage.redirect = location.href;
+    </script>
+    <meta http-equiv="refresh" content="0;URL='/" />
+  </head>
+  <body>
+    <script>
+      // Fallback redirect if meta refresh is blocked
+      if (!sessionStorage.redirect) {
+        location.href = '/';
+      }
+    </script>
+  </body>
+</html>
